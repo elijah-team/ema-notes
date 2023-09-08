@@ -128,7 +128,10 @@ title: Some unorganized notes
 ## typinf
 
 - re-translate from py 
-  * kotlin yeah right
+  * kotlin 
+    * yeah right
+    * (link)[link]
+    * dsls?
   * clj already has something
 
 ## ..
