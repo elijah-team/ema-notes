@@ -5,15 +5,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    java-bytecode – Emanote Template
+    quotes – Emanote Template
   </title>
   
     
-      <meta property='og:description' content='https://www.benf.org/other/cfr/eclipse-differences.html' />
+      <meta property='og:description' content='Can you explain what true TDD is, especially with frameworks like mockito. I am always seeing unit tests are geared directly to the implementation due to mocking, it is clear the implementation came first and is not TDD. How does one practice real TDD and still have a useful unit test that can also pass mutation testing? Thank you for the question. I have faced similar issues in the past and I have to admit I had similar experiences when I started to do TDD. Over the time I have leaned to focus on behavior rather than state when writing tests. I often remind myself that the more stubs and mocks we use is a sign of poor design. With practice we can learn to design our code in such a way that we keep the dependency on the internal details to a minimum. With unit testing we can’t totally avoid some knowledge of the internals, however, we can drive those internals based on the design influence of the tests rather than throw something together and write a test around it. I also try to know out a dependency before I consider mocking out a dependency. This helps, by moving dependencies around, where it is not possible to eliminate, we can reduce the extent to which we stub or mock.' />
       <meta property='og:site_name' content='Emanote Template' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='java-bytecode' />
+      <meta property='og:title' content='quotes' />
     
     
       <base href='/ema-notes/' />
@@ -675,7 +675,11 @@
             
               <!-- Variable bindings for this tree-->
   
-  
+    
+      
+    
+    
+
 
 
   
@@ -688,12 +692,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
-      
+    
   
-    <a class='font-bold text-red-600 hover:underline truncate' title='java-bytecode' href='java-bytecode.html'>
+    <a class='hover:underline truncate' title='java-bytecode' href='java-bytecode.html'>
       java-bytecode
     </a>
     
@@ -749,11 +753,7 @@
             
               <!-- Variable bindings for this tree-->
   
-    
-      
-    
-    
-
+  
 
 
   
@@ -766,12 +766,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
         </path>
       </svg>
-    
+      
   
-    <a class='hover:underline truncate' title='quotes' href='quotes.html'>
+    <a class='font-bold text-red-600 hover:underline truncate' title='quotes' href='quotes.html'>
       quotes
     </a>
     
@@ -834,37 +834,33 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-red-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    java-bytecode
+    quotes
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
-  <h2 id='bytecode' class='mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Bytecode</h2>
-    <p class='mb-3'>
-      <a href='https://www.benf.org/other/cfr/eclipse-differences.html' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://www.benf.org/other/cfr/eclipse-differences.html</a>
-    </p>
-  <h2 id='retro' class='mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>retro</h2>
-    <ul class='my-3 ml-6 space-y-1 list-disc'>
+  <h2 id='quotes' class='mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Quotes</h2>
+    <ul class='my-3 ml-6 space-y-1 list-decimal list-inside'>
       
         <li>
-          <a href='https://en.wikipedia.org/wiki/Java_backporting_tools' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://en.wikipedia.org/wiki/Java_backporting_tools</a>
-        </li>
-      
-        <li>
-          <a href='https://github.com/bsideup/jabel' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://github.com/bsideup/jabel</a>
-        </li>
-      
-        <li>
-          <a href='https://github.com/luontola/retrolambda' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://github.com/luontola/retrolambda</a>
+          <a href='https://www.reddit.com/r/IAmA/comments/tyfshm/comment/i3s03n0/?utm_source=share&amp;utm_medium=web2x&amp;context=3' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://www.reddit.com/r/IAmA/comments/tyfshm/comment/i3s03n0/?utm_source=share&amp;utm_medium=web2x&amp;context=3</a>
         </li>
       
     </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Can you explain what true TDD is, especially with frameworks like mockito. I am always seeing unit tests are geared directly to the implementation due to mocking, it is clear the implementation came first and is not TDD. How does one practice real TDD and still have a useful unit test that can also pass mutation testing? Thank you for the question. I have faced similar issues in the past and I have to admit I had similar experiences when I started to do TDD. Over the time I have leaned to focus on behavior rather than state when writing tests. I often remind myself that the more stubs and mocks we use is a sign of poor design. With practice we can learn to design our code in such a way that we keep the dependency on the internal details to a minimum. With unit testing we can’t totally avoid some knowledge of the internals, however, we can drive those internals based on the design influence of the tests rather than throw something together and write a test around it. I also try to know out a dependency before I consider mocking out a dependency. This helps, by moving dependencies around, where it is not possible to eliminate, we can reduce the extent to which we stub or mock.
+    </p>
+  
+    </blockquote>
   
 
   <div class='flex items-center justify-center mt-2'>
   
     
-      <a class='text-gray-300 hover:text-red-600 text-sm' title='Edit this page on GitHub' href='https://github.com/elijah-team/ema-notes/edit/master/java-bytecode.md'>
+      <a class='text-gray-300 hover:text-red-600 text-sm' title='Edit this page on GitHub' href='https://github.com/elijah-team/ema-notes/edit/master/quotes.md'>
         <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
           <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z'></path>
         </svg>
