@@ -1,4 +1,6 @@
-# ema-notes
+---
+slug: running-locally
+---
 
 ## Running using Nix
 
