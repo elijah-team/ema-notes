@@ -1,9 +1,11 @@
 
 1. Renovate is noisy
 
-  - Commit to a branch and pr-it like the rest (cf: `congenial`)
+  - (i would like) Commit to a branch and merge, blah blah
 
-  - Not doing this again by hand...
+  - This may be a configuration issue
+
+  - If not, then it's not a lot of work to script it
 
 2. Capture output in artifacts for later processing (ie by `plz, cef`)
 
@@ -13,41 +15,43 @@
 
 3. in re: cef, avoid javascript at all costs
 
+  - there are options...
+
 4. "feature" flow vs. linear
 
   - irritating, write jj/graphite plugin
 
-  - app.trunk.io spins like (I'm not gonna say it)
+  - app.trunk.io shows spinner
   
-7. editors/ides
+5. editors/ides
 
-  - vscode is nice, fleet is ok.  keep the first back a little, and wait for the second
+  - vscode is nice, fleet is ok.  (no/less dialog boxes.)
 
-  - also, maybe find $100 for jetbrains
+  - jetbrains paid might be an option
 
   - is it zed, xi or zi?
 
   - netbeans?
 
-5. alt tab in gnome is torture
+6. alt tab in gnome is torture
 
-6. why ARE we still installing apps (or at least oses??), john?
+7. why ARE we still installing apps (or at least oses??), john?
 
-7. woodpecker, charm confusing me
+8. woodpecker, charm confusing me
 
   - no way im that stupid
 
-8. [SOLVED] nix gnome can't install extensions
+9. [SOLVED] nix gnome can't install extensions
 
   - the user is required to enable them in extensions extension
 
-9. nix gnome doesn't do that drag to edge thing
+10. nix gnome doesn't do that drag to edge thing
 
-  - will post config/repro laterrr
+  - comes with a base config?
 
-10. gnome has no dock (plz dont)
+  - "ubuntu is nice" (as in preconfigured in a lot of cases)
 
-11. mynixos should basically be shipped with nix
+11. [WONTFIX] mynixos should basically be shipped with nix
 
    - idk if they are offering a paid tier as a business thingy
 
@@ -57,67 +61,73 @@
 
   - overcomplicate it with pushing to git
 
-  - can't find bookmark. it's also friday.
+  - maybe something like: https://github.com/nlewo/comin
 
-13. whatever on ubuntu makes you wait (for icons)
+13. either gnome-software or snap store on ubuntu makes you wait (for icons)
 
-  - uninstall
+  - uninstalled them both
 
-14. ubuntu installs 16gb of fonts on uncompressed ext4 and nobody sees this as a problem
+14. ubuntu installer:
 
-15. let me use btr from the installer
+  - installs 16gb of fonts on uncompressed ext4 and nobody sees this as a problem
+    
+  - let me use btr from the installer
 
-16. let me use zfs from the installer
+  - let me use zfs from the installer
 
-17. it comes with calamares!
+15. it comes with calamares!
 
-  - zap!
+16. my config langugage has if statements
 
-18. my config langugage has if statements
+17. flutter looks nice, but i can't use the keyboard (subiquity)
 
-19. flutter looks nice, but i can't use the keyboard (subiquity)
-
-20. fedora installer enum's all btr subvolumes
+18. fedora installer enum's all btr subvolumes
 
   - not fun with apt-btr-snapshot
 
-21. dear easel, my desktop is not a tablet
+19. dear eazel, my desktop is not a tablet
 
   - that being said, i'll wait for the phone. i think it's gonna be great.
 
-22. samsung, fix one ui
+20. samsung, fix one ui
 
   - i know it's not _completely_ your fault
 
-23. samsung, gimme black emojis
+  - [UPDATE] the launcher is nice, though a little too involved
+
+21. samsung, gimme black emojis
 
   - you guys make great products
 
   - i just would like to feel great using them
 
-24. somebody give qubes some money (dev resources)
+  - some american policies are made more for americans
 
-25. why the f doesnt apt have --root like void and nix?
+22. it would be nice to see more qubes
 
-26. fix the control panel on deepin
+23. why doesnt apt have --root like void and nix?
 
-  - why did you change it?
+  - xbps-install is refreshing
 
-27. kde1 had almost direct counterparts to coreutils 
+  - (and i like their installer)
 
-  - bonus if you can fix the above!
+24. fix the control panel on deepin
 
-  - put a friggin command line on the bottom (it doesn't need to be editable, just copyable)
+  - why did they change it?
 
-  - but it's better if it is
+25. kde1 had almost direct counterparts to coreutils
 
-  - unix not windows
+  - i think the only way to make it better (in the past tense of course) would be to
+    have a command line/text box on the bottom of the window so ppl could learn what
+    they are (supposed to be) doing
 
-28. i will run reiser5 if it works, keep your politics, don't apologize, ill use it if its stable and featureful.
+  - and also to make it look like gnome
 
-  - ill save that 100 for you
+26. maybe reiser5 will be good (like 3)
 
-29. lvm for all!
+  - nixos bcache doesn't boot for some reason
+
+27. lvm for all!
 
   - the lesson of zfs is that raw partitions are stupid
 
@@ -129,70 +139,67 @@
 
   - or exfat?
 
-  - plz don't sue me (proceeds to punch on hood)
+28. remove os-prober.  doesn't even make sense.
 
-  - or exfat32? (trying here, sorry)
-
-30. you are almost evil for (got mad again)
-
-31. remove os-prober.  doesn't even make sense.
-
-32. there's like 35 clipboards
+29. there's like 35 clipboards
 
   - this is historical, not (exactly) a complaint
 
-  - the british are coming!
+30. dialog boxes are stupid
 
-  - we're bloody english, you twit.
+31. i don't care about cookies
 
-33. dialog boxes are stupid
+32. im lying, i like cookies as much as the next person
 
-34. if you ask to accept cookies, i'm ctrl+w
+33. in maven: pin dependency resolution for "jar-sets" to a server/host/whatever (everybody calls it something different (maybe))
 
-35. in maven: pin dependency resolution for "jar-sets" to a server/host/whatever (everybody calls it something different (maybe))
+34. learn the dougie and break through barriers
 
-36. learn the dougie and break through barriers
+35. explain how git is or is not a filesystem
 
-37. explain how git is or is not a filesystem
-
-38. bash is a great scripting language
+36. bash is a great scripting language
 
   - change your login shell
 
-  - that terminal thing is nice.  (don't shoot.)  open source does not innovate. (im sorry for this one, guys....)
+  - i really like the ideas that warp.dev demoed
 
-39. zig is nice. i (think i) feel for /u/lattner.
+37. zig is nice. i (think i) feel for /u/lattner.
 
-40. eclipse/idea maven seem to like forgetting random parts of the config
+38. eclipse/idea maven seem to like forgetting random parts of the config
 
   - this may or not be my fault.
 
-41. many of the jvm languages duplicate things.
+39. many of the jvm languages duplicate things.
 
-42. all of the java ides duplicate things.
+40. all of the java ides duplicate things.
 
-43. theres a couple different ways to express things in scala.
+  - (work is progressing...)
 
-  - that guy did a video/tweet.
+41. theres a couple different ways to express things in scala.
 
-44. pay for youtube
+  - and a lot of other ones, too -- reflecting on how much is necessary
+    to accomplish out goals.
 
-45. youtube app is like elevated, its yt+tt+ig, whoa!
+42. youtube is my netflix (aka $9 a month)
 
-47. stop recommending me shit i keep saying no to. the answer is fucking no. and then i cant install an extension to not, so i will not bother.
+43. youtube app is like elevated, a little bit of everything for everybody
 
-  - yt movies/shorts.
+    - kind of unfocused
+   
+    - hope they figure it out.
 
-  - my playlist is all gospel. why when i search do i get death metal?
+44. they are persistent with conversion attempts, even when you ask them not to be
 
-  - my playlist is all gangsta rap.  why when i search do i get show tunes?
+45. their recommendations can be inaccurate (also spotify)
 
-49. ports and 9fs vs electron
+  - search is always global, and does not reflect actual listening patterns
+
+  - search is generally useless now and they don't wat to fix it (sad face)
+
+46. ports and 9fs vs electron
 
   - see fuschia
 
   - see fuchsia
 
-50. I tried the gitlab deb.  With 2 repos, at rest, it takes 12GB RAM??
-
-18. ...
+47. I tried the gitlab deb.  With 2 repos, at rest, it takes 12GB RAM??
