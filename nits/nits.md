@@ -1,11 +1,6 @@
+## Still will not stop complaining
 
-1. Renovate is noisy
-
-  - (i would like) Commit to a branch and merge, blah blah
-
-  - This may be a configuration issue
-
-  - If not, then it's not a lot of work to script it
+1. Stop cutting your hair with beard trimmers
 
 2. Capture output in artifacts for later processing (ie by `plz, cef`)
 
@@ -19,10 +14,10 @@
 
 4. "feature" flow vs. linear
 
-  - irritating, write jj/graphite plugin
+  - irritating, do your own thing.
 
-  - app.trunk.io shows spinner
-  
+  - that doesn't solve the problem, but it solves your problem
+
 5. editors/ides
 
   - vscode is nice, fleet is ok.  (no/less dialog boxes.)
@@ -36,6 +31,14 @@
 6. alt tab in gnome is torture
 
 7. why ARE we still installing apps (or at least oses??), john?
+
+  - portable services.
+
+  - immutable distros.
+
+  - qubes really needs more docs.
+
+  - i would have nixos years ago iuf they would have explained nix-env correctly.
 
 8. woodpecker, charm confusing me
 
@@ -89,11 +92,7 @@
 
   - that being said, i'll wait for the phone. i think it's gonna be great.
 
-20. samsung, fix one ui
-
-  - i know it's not _completely_ your fault
-
-  - [UPDATE] the launcher is nice, though a little too involved
+20. emojis. f-u, this is america :flag:
 
 21. samsung, gimme black emojis
 
@@ -111,21 +110,27 @@
 
   - (and i like their installer)
 
+  - guix install is refreshing
+
 24. fix the control panel on deepin
 
   - why did they change it?
+
+  - stop complaining, you didn't like it that much -- infinite scrolling is an antipattern. (cough firefox)
 
 25. kde1 had almost direct counterparts to coreutils
 
   - i think the only way to make it better (in the past tense of course) would be to
     have a command line/text box on the bottom of the window so ppl could learn what
-    they are (supposed to be) doing
+    they are (supposed to be) doing.
 
-  - and also to make it look like gnome
+  - and also to make it look like gnome. [french guys]
 
 26. maybe reiser5 will be good (like 3)
 
-  - nixos bcache doesn't boot for some reason
+  - nixos bcache doesn't boot for some reason.
+
+  - wear baggy pants and/or lose out to some asshole in a turtleneck.
 
 27. lvm for all!
 
@@ -139,35 +144,61 @@
 
   - or exfat?
 
-28. remove os-prober.  doesn't even make sense.
+  - vdo, thin provisioning, ... --> here soon
 
-29. there's like 35 clipboards
+  - zfs can be simulated with btrfs/bcachefs and some scripts for my u.c. (maybe, mostly)
+
+28. "fix" os-prober
+
+  - the constant probing doesn't make work in the real world.
+
+  - /u/0pointer is kinda right with either bootspec or one of those 1000 gpt uuids.
+
+  - reming yourself to find a pretty theme for refind...
+
+  - and make it read grub configs. (duh)
+
+29. [SEMI-SOLVED] there's like 35 clipboards
 
   - this is historical, not (exactly) a complaint
 
 30. dialog boxes are stupid
 
+  - [remove complaint] "Just" configure the wm
+
 31. i don't care about cookies
 
-32. im lying, i like cookies as much as the next person
+32. im lying, i like cookies a little bit too much
 
 33. in maven: pin dependency resolution for "jar-sets" to a server/host/whatever (everybody calls it something different (maybe))
 
 34. learn the dougie and break through barriers
 
-35. explain how git is or is not a filesystem
+35. [SOLVED] explain how git is or is not a filesystem
+
+  - semi-distributed object store.
+
+  - primarily presented as a list of files.
 
 36. bash is a great scripting language
 
-  - change your login shell
+  - change your login shell(, plz).
 
-  - i really like the ideas that warp.dev demoed
+  - i really like the ideas that warp.dev demoed ;).
+
+  - i do not like the terminal in idea 2024.
 
 37. zig is nice. i (think i) feel for /u/lattner.
 
-38. eclipse/idea maven seem to like forgetting random parts of the config
+  - still llvm, tho.
 
-  - this may or not be my fault.
+38. [SEMI-SOLVED] eclipse/idea maven seem to like forgetting random parts of the config
+
+  - this is partially my fault, yes
+
+  - but i am working with very simple projects
+
+  - also, nobody cares/we are all volunteers/go make a crypto coin/calm down.
 
 39. many of the jvm languages duplicate things.
 
@@ -175,20 +206,26 @@
 
   - (work is progressing...)
 
-41. theres a couple different ways to express things in scala.
+  - gmaven, maven-model.jar, im sure others
+
+41. "theres a couple different ways to express things in scala."
 
   - and a lot of other ones, too -- reflecting on how much is necessary
     to accomplish out goals.
 
-42. youtube is my netflix (aka $9 a month)
+42. [SEMI-SOLVED] youtube is my netflix (aka $9 a month)
 
 43. youtube app is like elevated, a little bit of everything for everybody
 
     - kind of unfocused
-   
+
     - hope they figure it out.
 
 44. they are persistent with conversion attempts, even when you ask them not to be
+
+  - poTest?
+
+  - rust and other elements?
 
 45. their recommendations can be inaccurate (also spotify)
 
@@ -198,8 +235,26 @@
 
 46. ports and 9fs vs electron
 
-  - see fuschia
+  - see fuschia.
 
-  - see fuchsia
+  - see fuchsia (should have stolen the alligator, or whatever it was called -- the demo).
+
+  - see inferno.
 
 47. I tried the gitlab deb.  With 2 repos, at rest, it takes 12GB RAM??
+
+  - How light weight is k8s/minikube/k3s?
+
+  - Aka solving one problem (Gitea/Forgejo - cant type that) with another...
+
+  - Sounds like a problem for next year.
+
+48. Have you tried plaint?
+
+  - tastes almost as good as pie.
+
+49. intentionally left blank
+
+  - aka please disreagrd the parts that are obviously incorrect.
+
+50. i 
