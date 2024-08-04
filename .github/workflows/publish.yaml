@@ -2,7 +2,7 @@ name: "Publish"
 on:
   push:
     branches:
-      - master
+      - deploy
 jobs:
   emanote:
     runs-on: ubuntu-latest
