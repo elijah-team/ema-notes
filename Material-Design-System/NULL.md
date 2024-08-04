@@ -24,5 +24,6 @@ These are just a few of the many ways NULL is superior to all current computer l
 By John R. Andrews, University of Illinois at Chicago.
 
 
+
 --
 [1]: https://web.archive.org/web/20050907162104/http://jdurrett.ba.ttu.edu/misc/Null-language.html
